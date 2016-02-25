@@ -1,1 +1,16 @@
 *.class
+.idea/copyright/profiles_settings.xml
+
+.idea/compiler.xml
+
+.idea/encodings.xml
+
+.idea/misc.xml
+
+.idea/modules.xml
+
+.idea/workspace.xml
+
+.idea/vcs.xml
+
+Java/.idea/workspace.xml
