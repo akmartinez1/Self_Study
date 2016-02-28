@@ -33,6 +33,15 @@ public class fizzbuzz {
         end=scan.nextInt();
 
         do{
+            if(end<start&&end!=-1){
+                System.out.println("\nEnd point can not be less than Start Point.");
+                scan.nextLine();
+                System.out.print("Enter an integer ending point:  ");
+                end=scan.nextInt();
+            }
+        }while(end<start&&end!=-1);
+
+        do{
             if(nextNumber%3==0&&nextNumber%5==0){
                 System.out.println(nextNumber + " Fizz Buzz");
                 fizzBuzzCount++;
