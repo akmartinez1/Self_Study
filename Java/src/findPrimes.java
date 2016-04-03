@@ -53,7 +53,7 @@ public class findPrimes {
                     primeNumberCount++;
                 } else {
                     /*
-                    if divisor test ('modulo (%)') returns a remaind of any kind then prime number candidate is still
+                    if divisor test ('modulo (%)') returns a remainder of any kind then prime number candidate is still
                     eligible to be tested by the next divisor.  Do nothing at this point and let divisor increment
                     to the next value to test agains prime number candidate.
                      */
